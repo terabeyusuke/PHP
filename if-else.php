@@ -1,12 +1,13 @@
 <?php
 $name = "寺部裕介";
 if ($name === "寺部裕介" ){
-  echo "私は あなたの名前 です";
+  echo "私は $name です";
 }else{
-  echo "あなたの名前ではありません";
+  echo "あなたの $nema ではありません";
 }
 
-for($i=0; $i<=10000; $i++) {
+for($i= 1 ; $i <= 10000; $i++) {
+
   $total += $i;
 }
 echo $total;
